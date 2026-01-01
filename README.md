@@ -59,18 +59,18 @@ agentic-ai-backend/
 ---
  **Step 1: Clone the Repository**
  
-   ```git clone https://github.com/<your-username>/agentic-ai-backend.git```
-   ```cd agentic-ai-backend ```
+```git clone https://github.com/<your-username>/agentic-ai-backend.git```
+```cd agentic-ai-backend ```
 
  **Step 2: Create Virtual Environment**
  
-   ``` python -m venv venv ```
+``` python -m venv venv ```
 
  **Step 3: Activate Virtual Environment**
 
   **Windows**
 
-  ``` venv\Scripts\activate ```
+``` venv\Scripts\activate ```
 
   **macOS / Linux**
 
@@ -78,31 +78,31 @@ agentic-ai-backend/
 
 You should see:
 
-  ```(venv) C:\Users\...```
+```(venv) C:\Users\...```
 
 **Step 4: Install Dependencies**
 
-  ```pip install -r requirements.txt```
+```pip install -r requirements.txt```
 
 If requirements.txt is not present, install manually:
 
-  ```pip install fastapi uvicorn python-multipart PyPDF2 duckduckgo-search```
+```pip install fastapi uvicorn python-multipart PyPDF2 duckduckgo-search```
 
 ### **Running the Application**
 ---
 Start the FastAPI server:
 
-  ```uvicorn main:app --reload```
+```uvicorn main:app --reload```
 
 If successful, you’ll see:
 
-  ```Uvicorn running on http://127.0.0.1:8000```
+```Uvicorn running on http://127.0.0.1:8000```
 
 ### **API Usage**
 ---
 Open your browser and go to:
 
-  ```http://127.0.0.1:8000/docs```
+```http://127.0.0.1:8000/docs```
 
 Using **Swagger UI**, you can:
 
