@@ -1,15 +1,19 @@
 ### **Agentic AI Backend – Real-Time Intelligent Assistant System**
----
+
 Agentic AI Backend is a modular, FastAPI-based backend system that demonstrates an agent-based AI workflow, where each agent independently handles a specific task such as document question answering, meeting scheduling, and external information retrieval.
 
 This project is designed to showcase how multiple intelligent agents can work together to provide structured, context-aware responses in real time.
 
-### **Technologies Used**
 ---
+
+### **Technologies Used**
+
 Python · FastAPI · SQLite · DuckDuckGo Search · PyPDF2 · Uvicorn
 
-### **Project Overview**
 ---
+
+### **Project Overview**
+
 This backend system integrates multiple AI-inspired agents:
 
 - **Document Agent** – Reads PDF/Text documents and answers questions from the content
@@ -22,8 +26,10 @@ This backend system integrates multiple AI-inspired agents:
 
 The architecture is built for **clarity, scalability, and learning purposes,** making it ideal for academic projects, demos, and backend experimentation.
 
-### **Features**
 ---
+
+### **Features**
+
 - Modular agent-based backend design
 
 - PDF & text document question answering
@@ -36,8 +42,10 @@ The architecture is built for **clarity, scalability, and learning purposes,** m
 
 - Beginner-friendly project structure
 
-### **Project Structure**
 ---
+
+### **Project Structure**
+
 ```md
 agentic-ai-backend/
 │
@@ -55,8 +63,11 @@ agentic-ai-backend/
 ├── .gitignore
 └── README.md 
 ```
-### **Installation & Setup**
+
 ---
+
+### **Installation & Setup**
+
  **Step 1: Clone the Repository**
  
 ```git clone https://github.com/<your-username>/agentic-ai-backend.git```
@@ -88,8 +99,10 @@ If requirements.txt is not present, install manually:
 
 ```pip install fastapi uvicorn python-multipart PyPDF2 duckduckgo-search```
 
-### **Running the Application**
 ---
+
+### **Running the Application**
+
 Start the FastAPI server:
 
 ```uvicorn main:app --reload```
@@ -98,8 +111,10 @@ If successful, you’ll see:
 
 ```Uvicorn running on http://127.0.0.1:8000```
 
-### **API Usage**
 ---
+
+### **API Usage**
+
 Open your browser and go to:
 
 ```http://127.0.0.1:8000/docs```
@@ -114,8 +129,10 @@ Using **Swagger UI**, you can:
 
 - Test all API endpoints interactively
 
-### **Agents Description**
 ---
+
+### **Agents Description**
+
 **📄 Document Agent**
 
 - Reads PDF or text files
@@ -136,8 +153,10 @@ Using **Swagger UI**, you can:
 
   -- “All meetings”
 
-### **Learning Outcomes**
 ---
+
+### **Learning Outcomes**
+
 - Understanding agent-based system design
 
 - Building REST APIs using FastAPI
@@ -148,8 +167,10 @@ Using **Swagger UI**, you can:
 
 - Practical Git & GitHub workflow
 
-### **Future Enhancements**
 ---
+
+### **Future Enhancements**
+
 - Semantic search using embeddings
 
 - Authentication and user roles
@@ -160,14 +181,18 @@ Using **Swagger UI**, you can:
 
 - Advanced agent coordination
 
-### **Author**
 ---
-## Kaviya
+
+### **Author**
+
+#### Kaviya
 **Computer Science Engineering Student**
 
 🚀 Passionate about **Frontend & Backend Development**, **AI-powered systems**, and creating **practical, real-world solutions** 💙
 
-### **Support**
 ---
+
+### **Support**
+
 If you found this project useful, **please give it a star ⭐**
 It really helps and motivates future improvements!
